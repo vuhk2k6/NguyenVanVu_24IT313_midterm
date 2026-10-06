@@ -3,7 +3,7 @@
 - Student: Nguyễn Văn Vũ
 - Student ID: 24IT313
 - Repository name: `NguyenVanVu_24IT313_midterm`
-- Repository URL: **TODO: replace with your actual GitHub repository URL before submitting.**
+- Repository URL: - Repository URL: https://github.com/vuhk2k6/NguyenVanVu_24IT313_midterm.
 - Target: NetBSD, C11; also builds on Linux.
 - Specification: the supplied three-page NetBSD 10.1 ls(1) subset, dated October 27, 2024. No external ls command is invoked.
 
@@ -112,14 +112,14 @@ Also capture terminal screenshots of: successful make, default listing, -la, -n,
 
 ## GitHub submission
 
-Create an empty GitHub repository named `NguyenVanVu_24IT313_midterm`. Replace YOUR_GITHUB_USERNAME below with your actual username and update the repository URL at the top of this report.
+Create an empty GitHub repository named `NguyenVanVu_24IT313_midterm`. Replace vuhk2k6 below with your actual username and update the repository URL at the top of this report.
 
 ```sh
 git init
 git add .
 git commit -m "Implement modular ls subset and project report"
 git branch -M main
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/NguyenVanVu_24IT313_midterm.git
+git remote add origin https://github.com/vuhk2k6/NguyenVanVu_24IT313_midterm.git
 git push -u origin main
 ```
 
