@@ -1,0 +1,5 @@
+/myls
+*.o
+*.core
+core
+.DS_Store
