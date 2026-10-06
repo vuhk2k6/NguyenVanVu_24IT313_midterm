@@ -85,7 +85,11 @@ Directory entries are inspected with lstat; recursive traversal never follows di
 
 Local validation was performed on Linux: warning-free build with -Wall -Wextra -Wpedantic and 7 passing behavioral test groups. These exercise all 19 flags, sorting, precedence, hidden entries, recursion, links, special permissions, sparse-file allocation, totals, and errors. UNIX socket creation is automatically omitted when forbidden by the execution environment; it remains tested where permitted.
 
-**NetBSD execution has not yet been performed.** Before submitting, run these on your NetBSD VM:
+The project compiled successfully on NetBSD without warnings.
+Manual tests passed for all 19 options, recursive traversal,
+symbolic links, option precedence, BLOCKSIZE, nonprintable
+filenames, and error handling.
+Before submitting, run these on your NetBSD VM:
 
 ```sh
 make clean
